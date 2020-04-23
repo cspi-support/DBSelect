@@ -9,6 +9,9 @@
             <param name="fully-qualified-name" value="com.example.dbselect.DBSelect"/>
         </type-metadata>
         <memory-model-settings/>
+        <parameter-definitions>
+            <parameter default="1" name="a"/>
+        </parameter-definitions>
         <dynamic-variables/>
         <data name="JDBCTable" type="jdbctable">
             <param name="connection" value="sample_JDBC_data_source_0"/>
